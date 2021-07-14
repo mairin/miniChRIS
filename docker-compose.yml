@@ -93,7 +93,7 @@ services:
       - DATABASE_PORT=5432
       - POSTGRES_DB=chris_store
       - POSTGRES_USER=chris
-      - POSTGRES_PASSWORD=chirs1234
+      - POSTGRES_PASSWORD=chris1234
       - SWIFT_AUTH_URL=http://swift:8080/auth/v1.0
       - SWIFT_USERNAME=chris:chris1234
       - SWIFT_KEY=testing
@@ -112,7 +112,7 @@ services:
     environment:
       - POSTGRES_DB=chris_store
       - POSTGRES_USER=chris
-      - POSTGRES_PASSWORD=chirs1234
+      - POSTGRES_PASSWORD=chris1234
     volumes:
       - chris_store_db_data:/var/lib/mysql
     networks:
